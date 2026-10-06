@@ -119,12 +119,6 @@ html:not(.stage-anim) .stage-scrim { background: linear-gradient(180deg, transpa
   text-shadow: 0 0 18px rgba(255, 220, 130, .35);
 }
 .award-text { display: inline; }
-/* The chip links to the certificate PDF */
-.award-link { text-decoration: none; cursor: pointer; transition: transform .2s ease, box-shadow .2s ease, border-color .2s ease; }
-.award-link:hover, .award-link:focus-visible { transform: translateY(-2px); border-color: var(--gold-2); box-shadow: 0 0 0 1px rgba(243, 210, 122, .35), 0 14px 40px rgba(243, 190, 70, .42), inset 0 1px 0 rgba(255, 255, 255, .18); }
-.award-link:focus-visible { outline: 2px solid var(--gold-2); outline-offset: 3px; }
-.award-ext { width: .95em; height: .95em; flex: 0 0 auto; fill: none; stroke: var(--gold); stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; opacity: .8; margin-left: .1em; }
-.award-link:hover .award-ext { opacity: 1; }
 .award-sep { margin: 0 .5em; opacity: .55; }
 .award-venue, .award-status { color: var(--gold-2); }
 .trophy { width: 1.35em; height: 1.35em; flex: 0 0 auto; fill: none; stroke: var(--gold); stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; filter: drop-shadow(0 0 8px rgba(255, 215, 120, .55)); }
@@ -526,5 +520,3 @@ html:not(.stage-anim) .stage-title { animation: rise .7s ease-out both; }
   .playground { background: #fff !important; color: #000 !important; }
   .play-launch, .play-bar { display: none !important; }
 }
-
-.sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0; }
